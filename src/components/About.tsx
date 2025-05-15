@@ -30,15 +30,11 @@ const About: React.FC = () => {
               </p>
 
               <p className="mb-4">
-                Olá! Sou um Desenvolvedor de Sistemas apaixonado, atualmente
-                trabalhando na Vale, nos sistemas Vitória a Minas (VM). Possuo
-                sólida experiência em desenvolvimento full-stack, com expertise
-                em diversas tecnologias e frameworks. Atualmente cursando
-                Análise e Desenvolvimento de Sistemas na Faculdade UVV, estou
-                constantemente expandindo meus conhecimentos e habilidades na
-                área de engenharia de software. Também concluí minha formação
-                técnica em Informática no Instituto Federal do Espírito Santo
-                (IFES) - Serra.
+                Atualmente cursando Análise e Desenvolvimento de Sistemas na
+                Faculdade UVV, estou constantemente expandindo meus
+                conhecimentos e habilidades na área de engenharia de software.
+                Também concluí minha formação técnica em Informática no
+                Instituto Federal do Espírito Santo (IFES) - Serra.
               </p>
 
               <p className="mb-4">
