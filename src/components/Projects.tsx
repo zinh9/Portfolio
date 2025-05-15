@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       description:
         "Sistema desenvolvido para gerenciar a apresentação diária de funcionários na Gerência da Operação 1 da Vale. A aplicação permite registrar e visualizar assinaturas de DSS e TAQ, com regras de tempo e validações por turno e supervisão. Inclui filtros dinâmicos, controle de múltiplos acessos.",
       image:
-        "src/images/locomotivas-Vale-2.jpg", // Imagem de formulários e documentos
+        "src/images/locomotivas-vale.jpg", // Imagem de formulários e documentos
       tags: ["ASP Classic", "HTML", "CSS", "JavaScript", "Bootstrap", "Access"],
       links: {},
     },
@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       description:
         "Sistema web desenvolvido para um estúdio de tatuagem, com funcionalidades como cadastro de clientes, geração de orçamentos, histórico de atendimentos e controle de agendamentos. A aplicação também conta com uma landing page responsiva para atrair novos clientes.",
       image:
-        "src/images/Tatuador-tatuagem.jpg", // Tatuador trabalhando
+        "src/images/tatuador-tatuagem.jpg", // Tatuador trabalhando
       tags: [
         "Java",
         "Spring Boot",

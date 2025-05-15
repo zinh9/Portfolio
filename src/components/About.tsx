@@ -14,7 +14,7 @@ const About: React.FC = () => {
             <div className="md:col-span-1">
               <div className="aspect-square rounded-full overflow-hidden border-4 border-blue-100 dark:border-slate-700 shadow-lg max-w-xs mx-auto">
                 <img
-                  src="src\images\IMG_20250313_120816.jpg"
+                  src="src\images\eu.jpg"
                   alt="Profile placeholder"
                   className="w-full h-full object-cover"
                 />
