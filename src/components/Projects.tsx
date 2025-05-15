@@ -19,16 +19,16 @@ const Projects: React.FC = () => {
     {
       title: "Sistema de Controle de Apresentações – Vale",
       description:
-        "Sistema desenvolvido em ASP Classic para gerenciar a apresentação diária de funcionários na Gerência da Operação 1 da Vale. A aplicação permite registrar e visualizar assinaturas de DSS e TAQ, com regras de tempo e validações por turno e supervisão. Inclui filtros dinâmicos, controle de múltiplos acessos e integração com banco de dados Access.",
-      image: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg", // Imagem de formulários e documentos
+        "Sistema desenvolvido para gerenciar a apresentação diária de funcionários na Gerência da Operação 1 da Vale. A aplicação permite registrar e visualizar assinaturas de DSS e TAQ, com regras de tempo e validações por turno e supervisão. Inclui filtros dinâmicos, controle de múltiplos acessos.",
+      image:
+        "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg", // Imagem de formulários e documentos
       tags: ["ASP Classic", "HTML", "CSS", "JavaScript", "Bootstrap", "Access"],
-      links: {
-      },
+      links: {},
     },
     {
       title: "Sistema de Agendamentos e Landing Page – Studio de Tatuagem",
       description:
-        "Sistema web desenvolvido para um estúdio de tatuagem, com funcionalidades como cadastro de clientes, geração de orçamentos, histórico de atendimentos e controle de agendamentos. A aplicação também conta com uma landing page responsiva para atrair novos clientes. Todo o sistema foi construído com Java no backend (Spring Boot, JPA, Hibernate, Spring Security) e HTML, CSS e JavaScript no frontend, utilizando MySQL como banco de dados.",
+        "Sistema web desenvolvido para um estúdio de tatuagem, com funcionalidades como cadastro de clientes, geração de orçamentos, histórico de atendimentos e controle de agendamentos. A aplicação também conta com uma landing page responsiva para atrair novos clientes.",
       image:
         "https://images.pexels.com/photos/4348078/pexels-photo-4348078.jpeg", // Tatuador trabalhando
       tags: [
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
     {
       title: "Sistema de Controle de Estoque – Desktop",
       description:
-        "Aplicação desktop desenvolvida com JavaFX para controle de estoque de produtos, permitindo o cadastro, atualização, exclusão e consulta de itens. O sistema utiliza JPA e Hibernate para persistência dos dados e MySQL como banco de dados. O foco foi criar uma interface intuitiva e eficiente para uso local, com funcionalidades robustas de gerenciamento e organização de estoque.",
+        "Aplicação desktop desenvolvida para controle de estoque de produtos, permitindo o cadastro, atualização, exclusão e consulta de itens. O foco foi criar uma interface intuitiva e eficiente para uso local, com funcionalidades robustas de gerenciamento e organização de estoque.",
       image:
         "https://images.pexels.com/photos/4348078/pexels-photo-4348078.jpeg", // Estoque organizado
       tags: ["JavaFX", "Java", "JPA", "Hibernate", "MySQL"],
@@ -60,22 +60,20 @@ const Projects: React.FC = () => {
     {
       title: "Dashboard de Localização de Materiais – Power BI",
       description:
-        "Projeto desenvolvido em menos de um mês para a Gerência da Operação 1 da Vale, com o objetivo de localizar materiais de via férrea em pátios operacionais. Utilizei um gráfico de dispersão sobreposto a layouts personalizados de trilhos, simulando mapas dos pátios. O sistema permite que supervisores visualizem em tempo real a localização de materiais em linhas específicas como 'A1', considerando coordenadas X e Y extraídas de planilhas de controle. A solução foi implementada inteiramente no Power BI, com tratamento de dados no Power Query e modelagem em DAX.",
+        "Projeto desenvolvido em menos de um mês para a Gerência da Operação 1 da Vale, com o objetivo de localizar materiais de via férrea em pátios operacionais. Utilizei um gráfico de dispersão sobreposto a layouts personalizados de trilhos, simulando mapas dos pátios. O sistema permite que supervisores visualizem em tempo real a localização de materiais em linhas específicas.",
       image:
         "https://images.pexels.com/photos/8891886/pexels-photo-8891886.jpeg", // Layout de trilhos
       tags: ["Power BI", "Power Query", "DAX", "Excel"],
-      links: {
-      },
+      links: {},
     },
     {
       title: "BI de Medição de Tempo de Trabalho – Operações Vale",
       description:
-        "Dashboard desenvolvido em Power BI para analisar os tempos de deslocamento, chegada ao posto e início das atividades dos funcionários de turno da Operação 1 da Vale. A ferramenta utiliza dados de amostragem coletados por guaritas e sistemas de rastreamento para medir com precisão o tempo até a primeira atividade. O BI permite filtrar por supervisão, turno e datas específicas, exibindo indicadores como atrasos, variação de tempo e impacto da chamada do CPT. Devido ao sucesso, o projeto está sendo expandido para as Operações 2 e 3.",
+        "Dashboard desenvolvido para analisar os tempos de deslocamento, chegada ao posto e início das atividades dos funcionários de turno da Operação 1 da Vale. A ferramenta utiliza dados de amostragem coletados por guaritas e sistemas de rastreamento para medir com precisão o tempo até a primeira atividade. O BI permite filtrar por supervisão, turno e datas específicas, exibindo indicadores como atrasos, variação de tempo e impacto da chamada do CPT. Devido ao sucesso, o projeto está sendo expandido para as Operações 2 e 3.",
       image:
         "https://images.pexels.com/photos/8370758/pexels-photo-8370758.jpeg", // Business dashboard
       tags: ["Power BI", "Power Query", "DAX", "Excel", "Análise de Dados"],
-      links: {
-      },
+      links: {},
     },
   ];
 

@@ -21,6 +21,7 @@ const Skills: React.FC = () => {
         { name: 'Java', level: 80 },
         { name: 'Spring Boot', level: 70 },
         { name: 'JPA/Hibernate', level: 70 },
+        { name: 'JavaFX', level: 70 },
         { name: 'PHP', level: 75 },
         { name: 'ASP Classic', level: 80 },
         { name: 'Python', level: 70 },
